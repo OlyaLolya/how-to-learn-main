@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name = "description" content = "Проектная работа №1 Семиной Ольги на Яндекс.Практикуме">
   <meta name = "author" content = "Семина Ольга">
-  <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
   <title>Научиться учиться</title>
 </head>
 
@@ -14,33 +14,33 @@
 <div class="page">
   <header class="header">
     <img class="logo logo_place_header" alt="Логотип ЯндексПрактикум" src="images/logo_place_header.svg">
-    <h1 class="header-title">Научиться учиться</h1>
-    <h2 class="header-subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
-      жизни? <a class="header-link link" href="#feynman-method">Узнать &rarr;</a></h2>
-    <img class="header-main-illustration" alt="Фрагмент картины «Опять двойка»" src="images/header-image.png">
-    <div class="header-square-pic"></div>
+    <h1 class="header__title">Научиться учиться</h1>
+    <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
+      жизни? <a class="header__link link" href="#feynman-method">Узнать &rarr;</a></p>
+    <img class="header__main-illustration" alt="Фрагмент картины «Опять двойка»" src="images/header-image.png">
+    <div class="header__square-pic"></div>
   </header>
 
   <main class="content">
 
     <section class="description">
-      <div class="two-columns columns">
-        <h3 class="two-columns-brief">Главные проблемы в обучении</h3>
-        <div class="two-columns-main-text">
-          <p class="two-columns-paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
+      <div class="two-columns">
+        <h2 class="two-columns-brief">Главные проблемы в обучении</h2>
+        <div class="two-columns__main-text">
+          <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
             Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест,
             но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
-          <p class="two-columns-paragraph"><span class="two-columns-span-accent">Вывод:</span>учиться тоже нужно
+          <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span>учиться тоже нужно
             уметь, но
             почему-то этому мало где учат. Что с этим делать?</p>
-          <p class="two-columns-paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать
+          <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать
             его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
         </div>
       </div>
     </section>
 
     <section class="digits">
-      <h1 class="section-title">Цифры и факты</h1>
+      <h2 class="section-title">Цифры и факты</h2>
       <h3 class="section-subtitle">Про учёбу и мозг</h3>
       <ul class="table">
 
@@ -82,13 +82,13 @@
     </section>
 
     <section class="feynman" id="feynman-method">
-      <h1 class="feynman-title">Метод Фейнмана</h1>
+      <h2 class="feynman-title">Метод Фейнмана</h2>
       <h3 class="feynman-subtitle">Выучить и не забыть.</h3>
       <a class="feynman-link link" href="#">Подробнее &rarr;</a>
     </section>
 
     <section class="kaufman">
-      <h1 class="section-title section-title_theme_dark">Принципы обучения</h1>
+      <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
       <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
       <ul class="table">
 
@@ -133,26 +133,27 @@
           <p class="table__text">Уделяйте внимание количеству и скорости.</p>
         </li>
       </ul>
+      <img class="kaufman__triangle" alt="Синий треугольник" src="images/kaufman-triangle.svg">
     </section>
   </main>
 
   <footer class="footer">
-    <div class="footer-columns columns">
+    <div class="footer-columns">
       <div class="footer__column footer__column_content_copyright">
         <img class="logo logo_place_footer" alt="Логотип ЯндексПрактикум" src="images/logo_place_footer.svg">
-        <h5 class="footer__author">&copy; 2020. Семина Ольга</h5>
+        <p class="footer__author">&copy; 2020. Семина Ольга</p>
       </div>
       <div class="footer__column footer__column_content_info">
         <h3 class="footer__column-heading">О Практикуме</h3>
-        <div class="footer__column-links">
+        <nav class="footer__column-links">
           <a class="footer__column-link" href="#">Главная</a>
           <a class="footer__column-link" href="#">Концепция</a>
           <a class="footer__column-link" href="#">Наставники</a>
-        </div>
+        </nav>
       </div>
       <div class="footer__column footer__column_content_social">
         <h3 class="footer__column-heading">Соцсети</h3>
-        <div class="footer__column-links">
+        <nav class="footer__column-links">
           <a class="footer__column-link" href="#">
             <img alt="Иконка Facebook" class="footer__social-icon" src="images/facebook_color_white.svg">
             Facebook
@@ -165,7 +166,7 @@
             <img alt="Иконка Instagram" class="footer__social-icon" src="images/instagram_color_white.svg">
             Instagram
           </a>
-        </div>
+        </nav>
       </div>
     </div>
   </footer>
