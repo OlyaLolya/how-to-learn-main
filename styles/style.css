@@ -136,7 +136,7 @@
 .table__cell{
   list-style: none;
   margin-top: 60px;
-  width: 250px
+  width: 250px;
 }
 .table__heading{
   line-height: 1.15;
